@@ -1,20 +1,18 @@
 const caixaPrincipal = document.querySelector(".caixa-principal");
-const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaenunciado = document.querySelector(".caixa-enunciado");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
-const perguntas = [
+const enunciado = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
-            {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+        enunciado: "sobre seus estudos no futuro, o que voce prefere?"         {
+                texto: "fazer uma faculdade na area que voce ama, mesmo que seja dificil",
+                afirmacao: "Você seguirá uma carreira na área que ama, enfrentando os desafios com motivação e paixão pelo que faz."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Fazer uma faculdade que te traga estabilidade financeira, mesmo que não seja sua paixão.",
+                afirmacao: "Você vai buscar uma faculdade que traga estabilidade, priorizando segurança e boas oportunidades no mercado de trabalho."
             }
         ]
     },
@@ -78,12 +76,12 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta() {
-    if (atual >= perguntas.length) {
+    if (atual >= enunciado.length) {
         mostraResultado();
         return;
     }
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    perguntaAtual = enunciado[atual];
+    caixaenunciado.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
@@ -105,7 +103,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaenunciado.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
