@@ -17,15 +17,15 @@ const enunciado = [
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "quando você pensa no seu futuro profissional, qual é mais importante para você",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "trabalhar com algo que te dê satisfaçãoe propòsito.",
+                afirmacao: "seu futuro profissional será guiado pelo propósito, buscando satisfação pessoal e realização em cada conquista."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "ter um emprego que te de permita conquistar segurança e conforto financeiro.",
+                afirmacao: "você vai construir uma carreira sólida, focando em estabilidade e conforto financeiro para ter uma vida tranquila."
             }
         ]
     },
