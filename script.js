@@ -17,7 +17,7 @@ const enunciado = [
         ]
     },
     {
-        enunciado: "quando você pensa no seu futuro profissional, qual é mais importante para você",
+        enunciado: "quando você pensa no seu futuro profissional, qual é mais importante para você?",
         alternativas: [
             {
                 texto: "trabalhar com algo que te dê satisfaçãoe propòsito.",
@@ -30,7 +30,7 @@ const enunciado = [
         ]
     },
     {
-        enunciado: "sobre saùde mental, o que você considera mais importante para seu futuro",
+        enunciado: "sobre saùde mental, o que você considera mais importante para seu futuro?",
         alternativas: [
             {
                 texto: "ter uma tempo para cuidar de si mesmo(a) e mmanter o equilíbrio emocional.",
@@ -43,14 +43,14 @@ const enunciado = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "pensando na tecnologia do futuro, qual dessas ideiaa te anima mais?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "o avanço da inteligência artificial para facilitar a vida das pessoas.",
                 afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "a criação de novas tecnologias sustentáveis que ajudem o meio ambiente.",
                 afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             }
         ]
